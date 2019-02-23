@@ -1,0 +1,19 @@
+
+------ Messages Limits --------
+max queues system wide = 32000     //MSGMNI [Maximum size of the messages]
+max size of message (bytes) = 8192	//MSGMAX
+default max size of queue (bytes) = 16384 //MSGMNB [Default size]
+
+------ Shared Memory Limits --------
+max number of segments = 4096   		 //SHMNI
+max seg size (kbytes) = 18014398509465599        //SHMAX
+max total shared memory (kbytes) = 18014398509481980 //SHMALL
+min seg size (bytes) = 1  //SHMIN
+
+------ Semaphore Limits --------
+max number of arrays = 32000	//SHMMNI		
+max semaphores per array = 32000	/
+max semaphores system wide = 1024000000
+max ops per semop call = 500
+semaphore max value = 32767
+
